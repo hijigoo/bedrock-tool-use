@@ -92,9 +92,9 @@ def manage_response_content(response_content):
             tool_use_name = tool_use_block['name']
 
             if tool_use_name == 'report_breakdown':
-                user_name = tool_use_block['input']['user_name'];
-                product_name = tool_use_block['input']['product_name'];
-                product_status = tool_use_block['input']['product_status'];
+                user_name = tool_use_block['input']['user_name']
+                product_name = tool_use_block['input']['product_name']
+                product_status = tool_use_block['input']['product_status']
 
                 report_breakdown(user_name, product_name, product_status)
 
